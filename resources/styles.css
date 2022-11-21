@@ -1,0 +1,128 @@
+*{
+    box-sizing:border-box;
+}
+
+
+#wrapper {
+    background-image: url("./images/pexels-henry-&-co-1939485.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Roboto', Georgia, 'Times New Roman', Times, serif;
+    font-size: 130%;
+
+}
+
+#main_heading {
+    color: darkblue;
+    font-size: 400%;
+    text-align: center;
+
+}
+
+
+#table-of-content {
+    display: flex;
+    border: 3px solid black ;
+    margin: 0 20px;
+    justify-content: center;
+    background-color:aliceblue;   
+    
+
+
+}
+
+
+/* Making horizontal-list ul element display: flex and after each li element within as flex-grow: 1 will allow the list elemenets to use all the space available to them and therefore they will look evenly spreaded*/
+
+#horizontal-list {
+   
+    display:flex;
+    gap: 2rem;
+ 
+    padding: 0;
+    width: 90%;
+    list-style: none;
+    
+    
+   
+}
+
+
+/* Note that I do not need to use  display:inline; as thanks to display:flex; all of the elements are trying to fill the container inline*/
+
+#horizontal-list li {
+   
+    font-size: 150%;
+    flex-grow: 1;
+    flex-shrink: 0;
+    text-align: center;
+}
+
+
+
+#horizontal-list a {
+    color: darkblue;
+    font-weight: bold;
+    text-decoration: none; 
+}
+
+#horizontal-list a:hover {
+    color:orangered;
+}
+
+.container_structure {
+    margin: 20px;
+    border: 2px solid darkblue;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+.section-heading {
+    color: darkblue;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 400%;
+}
+
+.section-table {
+    
+    border: 2px solid black;
+    margin: 30px auto;
+    background-color: beige;
+    width: 95%;
+    border-spacing: 4px;
+    border-color: black;
+    
+}
+
+
+
+
+
+thead td, tbody td, th{
+    border: 2px solid black;
+   
+   
+       
+}
+
+
+
+h2 {
+    padding: 20px;
+    font-weight: bold;
+    font-size: 150%;
+}
+
+h1 {
+    padding: 20px;
+    font-weight:bold;
+    font-size: 250%;
+}
+
+thead td{
+    background-color:rgb(89, 155, 222);
+    color:black;
+    
+    font-size: 150%;
+}

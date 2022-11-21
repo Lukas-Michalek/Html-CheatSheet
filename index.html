@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link href="resources/reset.css" rel="stylesheet">
+    <link href="./resources/styles.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>HTML Cheatsheet</title>
+
+</head>
+
+<body>
+    <div id="wrapper">
+
+        <h1 id="main_heading">My HTML Cheatsheet</h1>
+
+        <!-- Table of Content-->
+        
+        <div id="table-of-content">
+            <ul id="horizontal-list">
+                <li><a href="#elements_and_structure">HTML Elements and Structure</a></li>
+                <li><a href="#table_section">HTML Tables</a></li>
+                <li><a href="#html_forms">HTML Forms</a></li>
+                <li><a href="#html_semantic">HTML Semantic</a></li>
+                <li><a href="css_styling">CSS Styling</a></li>
+            </ul>
+        </div>
+        
+        
+     
+        <!-- HTML Elements and Structure -->
+
+        <!-- TODO:Sprav to tak aby ta tabulka bola farebne na preskocku-->
+        <!-- as-->
+ 
+        <div class="container_structure" id="elements_and_structure">
+            <h1 class="section-heading">HTML Elements and Structure</h1>
+            <table class="section-table">
+                <thead>
+                    <tr>
+                        <td>Tag</td>
+                        <td>Name</td>
+                        <td>Description</td>
+                        
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>&lt;!DOCTYPE html&gt;</th>
+                        <td>Document Type Declaration</td>
+                        <td>The doctype declaration is an instruction to the browser about what type of document to expect and which version of HTML is being used, in this case it's HTML5.</td>
+                       
+                    </tr>   
+                    <tr>
+                        <th>&lt;html&gt; &lt;/html&gt;</th>
+                        <td>HyperText Markup Language</td>
+                        <td>Represents the root (top-level element) of an HTML document, so it is also referred to as the root element. All other elements must be descendants of this element.</td>
+                        
+                    </tr>
+                    <tr>
+                        <th>&lt;head&gt; &lt;/head&gt;</th>
+                        <td>The Document Metadata (Header) element</td>
+                        <td>Contains machine-readable information (metadata) about the document, like its title, scripts, and style sheets.</td>
+                        
+                    </tr>
+                    <tr>
+                        <th>&lt;link&gt;</th>
+                        <td>The External Resource Link element</td>
+                        <td>Specifies relationships between the current document and an external resource. This element is most commonly used to link to CSS, but is also used to establish site icons (both "favicon" style icons and icons for the home screen and apps on mobile devices) among other things.</td>
+                        
+                    </tr>
+                    <tr>
+                        <th>&lt;meta&gt;</th>
+                        <td>The metadata element</td>
+                        <td>Represents metadata that cannot be represented by other HTML meta-related elements, like &lt;base&gt;, &lt;link&gt;, &lt;script&gt;, &lt;style&gt; or &lt;title&gt;.</td>
+                    </tr>
+                    <tr>
+                        <th>&lt;title&gt;</th>
+                        <td>The Document Title element</td>
+                        <td>Defines the document's title that is shown in a browser's title bar or a page's tab. It only contains text; tags within the element are ignored.</td>
+                    </tr>
+                    <tr>                
+                            <th>&lt;body&gt; &lt;/body&gt;</th>
+                            <td>The Document Body element</td>
+                            <td> Represents the content of an HTML document. There can be only one &lt;body&gt; element in a document.</td>
+                    </tr>
+                    <tr>
+                        <th>&lt;article&gt; &lt;/article&gt;</th>
+                        <td>The Article Contents element</td>
+                        <td>Represents a self-contained composition in a document, page, application, or site, which is intended to be independently distributable or reusable (e.g., in syndication). Examples include: a forum post, a magazine or newspaper article, or a blog entry, a product card, a user-submitted comment, an interactive widget or gadget, or any other independent item of content.</td>
+
+                    </tr>
+                    <tr>
+                        <th>&lt;aside&gt; &lt;/aside&gt;</th>
+                        <td>The Aside element</td>
+                        <td>Represents a portion of a document whose content is only indirectly related to the document's main content. Asides are frequently presented as sidebars or call-out boxes.</td>
+                    </tr>
+                    <tr>
+                        <th>&lt;footer&gt; &lt;/footer&gt;</th>
+                        <td>The footer element</td>
+                        <td>Represents a footer for its nearest ancestor sectioning content or sectioning root element. A &lt;footer&gt; typically contains information about the author of the section, copyright data or links to related documents.</td>
+                    </tr> 
+                    <tr>
+                        <th>&lt;h1&gt; - &lt;h6&gt;</th>
+                        <td>The HTML Section Heading elements</td>
+                        <td>Elements represent six levels of section headings. &lt;h1&gt; is the highest section level and &lt;h6&gt; is the lowest.</td>
+                    </tr>
+                    <tr>
+                        <th>&lt;main&gt; &lt;/main&gt;</th>
+                        <td>Main section element</td>
+                        <td>Represents the dominant content of the &lt;body&gt; of a document. The main content area consists of content that is directly related to or expands upon the central topic of a document, or the central functionality of an application.</td>
+                    </tr>
+                    <tr>
+                        <th>&lt;nav&gt; &lt;/nav&gt;</th>
+                        <td>The Navigation Section element</td>
+                        <td>Represents a section of a page whose purpose is to provide navigation links, either within the current document or to other documents. Common examples of navigation sections are menus, tables of contents, and indexes.</td>
+                    </tr>
+                    <tr>
+                        <th>&lt;section&gt; &lt;/section&gt;</th>
+                        <td>The Generic Section element</td>
+                        <td>Represents a generic standalone section of a document, which doesn't have a more specific semantic element to represent it. Sections should always have a heading, with very few exceptions.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <a href="#main_heading">Back to Table of Content</a>
+            <a href="#html_structure_examples">See Examples!</a>
+            
+        </div>
+        
+        <!-- HTML tags for Table Elements-->
+        
+        <div class="container_structure" id="table_section">
+            <h1>HTML Table References.</h1>
+            <h2>Table Tags</h2>
+            <table class="section-table">
+                <thead>
+                    <tr>
+                        <td>Tag</td>
+                        <td>Name</td>
+                        <td>Description</td>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>&lt;table&gt;</td>
+                        <td>Table</td>
+                        <td>The wrapper element for all HTML elements</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;thead&gt;</td>
+                        <td>Table Head</td>
+                        <td>The set of rows defining the column headers in a table.</td>
+                    </tr> 
+                    <tr>
+                        <td>&lt;tbody&gt;</td>
+                        <td>Table Body</td>
+                        <td>The set of rows containing actual table data.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;tr&gt;</td>
+                        <td>Table Row</td>
+                        <td>The table row container.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;td&gt;</td>
+                        <td>Table Data.</td>
+                        <td>Creates a cell in table</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;tfoot&gt;</td>
+                        <td>Table Footer</td>
+                        <td>The set of rows defining the footer in table</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h2>Table Attributes</h2>
+
+            <table class="section-table">
+                <thead>
+                    <tr>
+                        <td>Attribute</td>
+                        <td>Name</td>
+                        <td>Description</td>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>colspan</td>
+                        <td>Column Span</td>
+                        <td>Defines how many columns a td element should span.</td>
+                    </tr>
+                    <tr>
+                        <td>rowspan</td>
+                        <td>Row Span</td>
+                        <td>Defines how many rows a td element should span.</td>
+                    </tr>
+                </tbody>
+            </table>
+    </div>
+   </div>
+</body>
+
+</html>
